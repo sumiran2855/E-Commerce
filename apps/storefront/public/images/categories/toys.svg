@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <rect width="400" height="400" rx="20" fill="#FAF5FF"/>
+  <circle cx="200" cy="185" r="105" fill="#FFFFFF" fill-opacity="0.9"/>
+  <g transform="translate(152,137) scale(4)" stroke="#9333EA" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" fill="none"><circle cx="12" cy="12" r="9"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></g>
+  <text x="200" y="345" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="16" font-weight="600" fill="#1F2937">Toys & Baby</text>
+</svg>

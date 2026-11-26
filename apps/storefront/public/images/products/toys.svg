@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <rect width="400" height="400" rx="20" fill="#FAF5FF"/>
+  <circle cx="200" cy="185" r="105" fill="#FFFFFF" fill-opacity="0.9"/>
+  <g transform="translate(152,137) scale(4)" stroke="#7E22CE" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" fill="none"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></g>
+  <text x="200" y="345" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="16" font-weight="600" fill="#1F2937">Wooden STEM Builder</text>
+</svg>

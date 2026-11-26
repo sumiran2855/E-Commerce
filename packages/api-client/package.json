@@ -1,0 +1,41 @@
+{
+  "name": "@nextcommerce/api-client",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./browser": {
+      "types": "./dist/clients/browser-client.d.ts",
+      "import": "./dist/clients/browser-client.js"
+    },
+    "./server": {
+      "types": "./dist/clients/server-client.d.ts",
+      "import": "./dist/clients/server-client.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup src/index.ts src/clients/browser-client.ts src/clients/server-client.ts --format esm --dts --clean",
+    "lint": "eslint src",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@nextcommerce/shared-types": "workspace:*",
+    "axios": "^1.9.0"
+  },
+  "devDependencies": {
+    "@nextcommerce/config-eslint": "workspace:*",
+    "@nextcommerce/config-typescript": "workspace:*",
+    "eslint": "^9.26.0",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.3"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "@nextcommerce/shared-types",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts --clean",
+    "lint": "eslint src",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "@nextcommerce/config-eslint": "workspace:*",
+    "@nextcommerce/config-typescript": "workspace:*",
+    "eslint": "^9.26.0",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
+  }
+}

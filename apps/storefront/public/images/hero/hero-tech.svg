@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" fill="none">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="800" y2="520" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#EFF6FF"/>
+      <stop offset="100%" stop-color="#DBEAFE"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" rx="24" fill="url(#g)"/>
+  <circle cx="640" cy="120" r="160" fill="#2563EB" fill-opacity="0.14"/>
+  <circle cx="140" cy="430" r="120" fill="#2563EB" fill-opacity="0.10"/>
+  <rect x="440" y="90" width="280" height="340" rx="24" fill="#FFFFFF" fill-opacity="0.92"/>
+  <g transform="translate(510,165) scale(5.8)" stroke="#2563EB" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></g>
+  <text x="580" y="385" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="18" font-weight="700" fill="#111827">Audio & Wearables</text>
+  <text x="580" y="410" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="13" fill="#6B7280">Curated Tech Essentials</text>
+</svg>

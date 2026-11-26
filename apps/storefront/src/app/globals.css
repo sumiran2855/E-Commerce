@@ -1,0 +1,8 @@
+@import 'tailwindcss';
+@import '@nextcommerce/design-system/tokens.css';
+
+body {
+  background-color: var(--nc-bg);
+  color: var(--nc-text);
+  font-family: var(--font-inter), Inter, system-ui, sans-serif;
+}

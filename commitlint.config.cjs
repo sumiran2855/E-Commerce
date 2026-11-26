@@ -1,0 +1,30 @@
+module.exports = {
+  extends: ['@commitlint/config-conventional'],
+  rules: {
+    'scope-enum': [
+      2,
+      'always',
+      [
+        'storefront',
+        'seller',
+        'admin',
+        'catalog',
+        'cart',
+        'account',
+        'ui',
+        'design-system',
+        'shared-types',
+        'api-client',
+        'auth-client',
+        'validation',
+        'event-bus',
+        'utilities',
+        'config',
+        'deps',
+        'ci',
+        'docs',
+        'root',
+      ],
+    ],
+  },
+};
