@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <rect width="400" height="400" rx="20" fill="#F8FAFC"/>
+  <circle cx="200" cy="185" r="105" fill="#FFFFFF" fill-opacity="0.9"/>
+  <g transform="translate(152,137) scale(4)" stroke="#2563EB" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" fill="none"><circle cx="8" cy="10" r="3"/><path d="M8 13v6"/><circle cx="16" cy="10" r="3"/><path d="M16 13v6"/></g>
+  <text x="200" y="345" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="16" font-weight="600" fill="#1F2937">SonicPods Lite TWS</text>
+</svg>

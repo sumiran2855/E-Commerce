@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <rect width="400" height="400" rx="20" fill="#F0FDF4"/>
+  <circle cx="200" cy="185" r="105" fill="#FFFFFF" fill-opacity="0.9"/>
+  <g transform="translate(152,137) scale(4)" stroke="#15803D" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></g>
+  <text x="200" y="345" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="16" font-weight="600" fill="#1F2937">Nilgiri Arabica Coffee</text>
+</svg>

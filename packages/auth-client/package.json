@@ -1,0 +1,38 @@
+{
+  "name": "@nextcommerce/auth-client",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts --clean --external react",
+    "lint": "eslint src",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@nextcommerce/event-bus": "workspace:*",
+    "@nextcommerce/shared-types": "workspace:*"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0"
+  },
+  "devDependencies": {
+    "@nextcommerce/config-eslint": "workspace:*",
+    "@nextcommerce/config-typescript": "workspace:*",
+    "@types/react": "^19.1.2",
+    "eslint": "^9.26.0",
+    "react": "^19.3.1",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.3"
+  }
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <rect width="400" height="400" rx="20" fill="#FFFBEB"/>
+  <circle cx="200" cy="185" r="105" fill="#FFFFFF" fill-opacity="0.9"/>
+  <g transform="translate(152,137) scale(4)" stroke="#D97706" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M4 11h16v4a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5v-4z"/><path d="M2 11h20"/><path d="M9 7h6"/></g>
+  <text x="200" y="345" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="16" font-weight="600" fill="#1F2937">Tri-Ply Steel Kadhai</text>
+</svg>

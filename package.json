@@ -1,0 +1,43 @@
+{
+  "name": "nextcommerce-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "NextCommerce Hybrid Micro Frontend Monorepo",
+  "packageManager": "pnpm@12.23.0",
+  "engines": {
+    "node": ">=20.11.0",
+    "pnpm": ">=10.0.0"
+  },
+  "scripts": {
+    "dev": "turbo run dev --ui=stream --concurrency=10",
+    "start:all": "turbo run dev --ui=stream --concurrency=10",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "test": "turbo run test",
+    "test:e2e": "playwright test",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,mjs,cjs,json,md,css,yml,yaml}\"",
+    "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,mjs,cjs,json,md,css,yml,yaml}\"",
+    "clean": "turbo run clean && node tooling/scripts/clean.mjs",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^20.1.0",
+    "@commitlint/config-conventional": "^20.1.0",
+    "@playwright/test": "^1.56.1",
+    "axe-core": "^4.10.3",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.5.0",
+    "prettier": "^3.5.3",
+    "turbo": "^2.11.13",
+    "typescript": "^5.8.3"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx,mjs,cjs}": [
+      "prettier --write"
+    ],
+    "*.{json,md,css,yml,yaml}": [
+      "prettier --write"
+    ]
+  }
+}
